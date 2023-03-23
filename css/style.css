@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* logo */
+header {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(35, 81, 68);
+}
+
+/* left search bar */
+#search-side {
+  background-color: rgb(213, 236, 213);
+}
+
+/* (CITY) top right side section */
+
+.top-box {
+  border-style: groove;
+  border-color: darkgreen;
+}
+/* five day forecast */
+.bottom-box {
+  border-style: groove;
+  border-color: darkgreen;
+}
