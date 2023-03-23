@@ -10,9 +10,6 @@ var cityList = document.querySelector(".city-list");
 // WHEN I search for a city
 // THEN I am presented with current and future conditions for that city and that city is added to the search history
 
-var weather =
-  "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key})";
-
 var cityName = localStorage.getItem("cityNameList");
 
 function recordCity() {
